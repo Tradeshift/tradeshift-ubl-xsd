@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RequestForQuotation xmlns="urn:oasis:names:specification:ubl:schema:xsd:RequestForQuotation-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:draft:UnqualifiedDataTypesSchemaModule:2">
+<RequestForQuotation xmlns="urn:oasis:names:specification:ubl:schema:xsd:RequestForQuotation-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
 	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
 	<cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:RequestForQuotation-2.0:sbs-1.0-draft</cbc:CustomizationID>
 	<cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-request-for-quotation-draft</cbc:ProfileID>
@@ -70,7 +70,7 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:RegistrationName>Farthing Purchasing Consortia</cbc:RegistrationName>
+				<cbc:RegistrationName>Farthing Purchasing Consortium</cbc:RegistrationName>
 				<cbc:CompanyID>175 269 2355</cbc:CompanyID>
 				<cbc:ExemptionReason>N/A</cbc:ExemptionReason>
 				<cac:TaxScheme>
@@ -126,7 +126,7 @@
 		<cbc:Note>sample</cbc:Note>
 		<cac:LineItem>
 			<cbc:ID>1</cbc:ID>
-			<cbc:Quantity unitCode="KG">100</cbc:Quantity>
+			<cbc:Quantity unitCode="KGM">100</cbc:Quantity>
 			<cac:Item>
 				<cbc:Description>Acme beeswax</cbc:Description>
 				<cbc:Name>beeswax</cbc:Name>

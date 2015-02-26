@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:clm54217="urn:un:unece:uncefact:codelist:specification:54217:2001" xmlns:clm5639="urn:un:unece:uncefact:codelist:specification:5639:1988" xmlns:clm66411="urn:un:unece:uncefact:codelist:specification:66411:2001" xmlns:clmIANAMIMEMediaType="urn:un:unece:uncefact:codelist:specification:IANAMIMEMediaType:2003" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2
-..\xsd\maindoc\UBL-ReceiptAdvice-2.0.xsd">
-	<cbc:UBLVersionID>2.0-prd3</cbc:UBLVersionID>
+<ReceiptAdvice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ReceiptAdvice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
 	<cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:ReceiptAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
 	<cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-receipt-advice-notification-draft</cbc:ProfileID>
 	<cbc:ID>658398</cbc:ID>
@@ -80,7 +79,7 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:RegistrationName>Farthing Purchasing Consortia</cbc:RegistrationName>
+				<cbc:RegistrationName>Farthing Purchasing Consortium</cbc:RegistrationName>
 				<cbc:CompanyID>175 269 2355</cbc:CompanyID>
 				<cbc:ExemptionReason>N/A</cbc:ExemptionReason>
 				<cac:TaxScheme>
@@ -103,7 +102,7 @@
 		</cac:Consignment>
 		<cac:Delivery>
 			<cbc:ID>1</cbc:ID>
-			<cbc:Quantity unitCode="KG">90</cbc:Quantity>
+			<cbc:Quantity unitCode="KGM">90</cbc:Quantity>
 			<cbc:ActualDeliveryDate>2005-06-20</cbc:ActualDeliveryDate>
 			<cbc:ActualDeliveryTime>11:30:00.0Z</cbc:ActualDeliveryTime>
 			<cac:RequestedDeliveryPeriod>
@@ -117,8 +116,8 @@
 	<cac:ReceiptLine>
 		<cbc:ID>1</cbc:ID>
 		<cbc:Note>SAMPLE</cbc:Note>
-		<cbc:ReceivedQuantity unitCode="KG">90</cbc:ReceivedQuantity>
-		<cbc:ShortQuantity unitCode="KG">10</cbc:ShortQuantity>
+		<cbc:ReceivedQuantity unitCode="KGM">90</cbc:ReceivedQuantity>
+		<cbc:ShortQuantity unitCode="KGM">10</cbc:ShortQuantity>
 		<cac:Item>
 			<cbc:Description>Acme beeswax</cbc:Description>
 			<cbc:Name>beeswax</cbc:Name>
