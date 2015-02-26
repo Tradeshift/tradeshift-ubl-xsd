@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DespatchAdvice xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ccts="urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:udt="urn:un:unece:uncefact:data:draft:UnqualifiedDataTypesSchemaModule:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2">
+<DespatchAdvice xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:DespatchAdvice-2">
 	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
 	<cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:DespatchAdvice-2.0:sbs-1.0-draft</cbc:CustomizationID>
 	<cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-despatch-advice-notification-draft</cbc:ProfileID>
@@ -37,7 +37,7 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:RegistrationName>Farthing Purchasing Consortia</cbc:RegistrationName>
+				<cbc:RegistrationName>Farthing Purchasing Consortium</cbc:RegistrationName>
 				<cbc:CompanyID>175 269 2355</cbc:CompanyID>
 				<cbc:ExemptionReason>N/A</cbc:ExemptionReason>
 				<cac:TaxScheme>
@@ -123,8 +123,8 @@
 		<cbc:ID>1</cbc:ID>
 		<cbc:Note>Mrs Green agreed to waive charge</cbc:Note>
 		<cbc:LineStatusCode>NoStatus</cbc:LineStatusCode>
-		<cbc:DeliveredQuantity unitCode="KG">90</cbc:DeliveredQuantity>
-		<cbc:BackorderQuantity unitCode="KG">10</cbc:BackorderQuantity>
+		<cbc:DeliveredQuantity unitCode="KGM">90</cbc:DeliveredQuantity>
+		<cbc:BackorderQuantity unitCode="KGM">10</cbc:BackorderQuantity>
 		<cbc:BackorderReason>lack of stock as explained on telephone today</cbc:BackorderReason>
 		<cac:OrderLineReference>
 			<cbc:LineID>1</cbc:LineID>

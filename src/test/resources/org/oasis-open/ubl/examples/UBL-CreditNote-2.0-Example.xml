@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" 
 xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" 
-xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" 
-xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2 UBL-CreditNote-2.0.xsd">
+xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
 	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
 	<cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:CreditNote-2.0:sbs-1.0-draft</cbc:CustomizationID>
 	<cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-credit-notification-draft</cbc:ProfileID>
@@ -35,7 +32,7 @@ xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2 UB
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:RegistrationName>Farthing Purchasing Consortia</cbc:RegistrationName>
+				<cbc:RegistrationName>Farthing Purchasing Consortium</cbc:RegistrationName>
 				<cbc:CompanyID>175 269 2355</cbc:CompanyID>
 				<cbc:ExemptionReason>N/A</cbc:ExemptionReason>
 				<cac:TaxScheme>
@@ -112,7 +109,7 @@ xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2 UB
 	<cac:CreditNoteLine>
 		<cbc:ID>1</cbc:ID>
 		<cbc:Note>as agreed on phone, the invoice should have been cancelled earlier, apologies</cbc:Note>
-		<cbc:CreditedQuantity unitCode="KG">100</cbc:CreditedQuantity>
+		<cbc:CreditedQuantity unitCode="KGM">100</cbc:CreditedQuantity>
 		<cbc:LineExtensionAmount currencyID="GBP">100.00</cbc:LineExtensionAmount>
 		<cbc:TaxPointDate>2005-06-21</cbc:TaxPointDate>
 		<cac:DiscrepancyResponse>
@@ -159,7 +156,7 @@ xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2 UB
 		</cac:Item>
 		<cac:Price>
 			<cbc:PriceAmount currencyID="GBP">1.00</cbc:PriceAmount>
-			<cbc:BaseQuantity unitCode="KG">1</cbc:BaseQuantity>
+			<cbc:BaseQuantity unitCode="KGM">1</cbc:BaseQuantity>
 		</cac:Price>
 	</cac:CreditNoteLine>
 </CreditNote>
