@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Order xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ccts="urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:udt="urn:un:unece:uncefact:data:draft:UnqualifiedDataTypesSchemaModule:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2">
+<Order xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2">
 	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
 	<cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:Order-2.0:sbs-1.0-draft</cbc:CustomizationID>
 	<cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-order-with-simple-response-draft</cbc:ProfileID>
@@ -68,7 +68,7 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:RegistrationName>Farthing Purchasing Consortia</cbc:RegistrationName>
+				<cbc:RegistrationName>Farthing Purchasing Consortium</cbc:RegistrationName>
 				<cbc:CompanyID>175 269 2355</cbc:CompanyID>
 				<cbc:ExemptionReason>N/A</cbc:ExemptionReason>
 				<cac:TaxScheme>
@@ -158,12 +158,12 @@
 			<cbc:ID>1</cbc:ID>
 			<cbc:SalesOrderID>A</cbc:SalesOrderID>
 			<cbc:LineStatusCode>NoStatus</cbc:LineStatusCode>
-			<cbc:Quantity unitCode="KG">100</cbc:Quantity>
+			<cbc:Quantity unitCode="KGM">100</cbc:Quantity>
 			<cbc:LineExtensionAmount currencyID="GBP">100.00</cbc:LineExtensionAmount>
 			<cbc:TotalTaxAmount currencyID="GBP">17.50</cbc:TotalTaxAmount>
 			<cac:Price>
 				<cbc:PriceAmount currencyID="GBP">100.00</cbc:PriceAmount>
-				<cbc:BaseQuantity unitCode="KG">1</cbc:BaseQuantity>
+				<cbc:BaseQuantity unitCode="KGM">1</cbc:BaseQuantity>
 			</cac:Price>
 			<cac:Item>
 				<cbc:Description>Acme beeswax</cbc:Description>

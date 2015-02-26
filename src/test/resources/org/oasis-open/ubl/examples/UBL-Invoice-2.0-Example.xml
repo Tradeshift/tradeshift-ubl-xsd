@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Invoice xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:ccts="urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2" xmlns:stat="urn:oasis:names:specification:ubl:schema:xsd:DocumentStatusCode-1.0" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:udt="urn:un:unece:uncefact:data:draft:UnqualifiedDataTypesSchemaModule:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+<Invoice xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
 	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
 	<cbc:CustomizationID>urn:oasis:names:specification:ubl:xpath:Invoice-2.0:sbs-1.0-draft</cbc:CustomizationID>
 	<cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-invoice-notification-draft</cbc:ProfileID>
@@ -37,7 +37,7 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:RegistrationName>Farthing Purchasing Consortia</cbc:RegistrationName>
+				<cbc:RegistrationName>Farthing Purchasing Consortium</cbc:RegistrationName>
 				<cbc:CompanyID>175 269 2355</cbc:CompanyID>
 				<cbc:ExemptionReason>N/A</cbc:ExemptionReason>
 				<cac:TaxScheme>
@@ -114,7 +114,7 @@
 		<cbc:PaymentDueDate>2005-07-21</cbc:PaymentDueDate>
 		<cac:PayeeFinancialAccount>
 			<cbc:ID>12345678</cbc:ID>
-			<cbc:Name>Farthing Purchasing Consortia</cbc:Name>
+			<cbc:Name>Farthing Purchasing Consortium</cbc:Name>
 			<cbc:AccountTypeCode>Current</cbc:AccountTypeCode>
 			<cbc:CurrencyCode>GBP</cbc:CurrencyCode>
 			<cac:FinancialInstitutionBranch>
@@ -191,7 +191,7 @@
 	</cac:LegalMonetaryTotal>
 	<cac:InvoiceLine>
 		<cbc:ID>A</cbc:ID>
-		<cbc:InvoicedQuantity unitCode="KG">100</cbc:InvoicedQuantity>
+		<cbc:InvoicedQuantity unitCode="KGM">100</cbc:InvoicedQuantity>
 		<cbc:LineExtensionAmount currencyID="GBP">100.00</cbc:LineExtensionAmount>
 		<cac:OrderLineReference>
 			<cbc:LineID>1</cbc:LineID>
@@ -238,7 +238,7 @@
 		</cac:Item>
 		<cac:Price>
 			<cbc:PriceAmount currencyID="GBP">1.00</cbc:PriceAmount>
-			<cbc:BaseQuantity unitCode="KG">1</cbc:BaseQuantity>
+			<cbc:BaseQuantity unitCode="KGM">1</cbc:BaseQuantity>
 		</cac:Price>
 	</cac:InvoiceLine>
 </Invoice>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Quotation xmlns="urn:oasis:names:specification:ubl:schema:xsd:Quotation-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:draft:UnqualifiedDataTypesSchemaModule:2">
+<Quotation xmlns="urn:oasis:names:specification:ubl:schema:xsd:Quotation-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
 	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
 	<cbc:CustomizationID>urn:oasis:names:specification:ubl:schema:xsd:Quotation-2-draft</cbc:CustomizationID>
 	<cbc:ProfileID>bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-request-for-quotation-draft</cbc:ProfileID>
@@ -38,7 +38,7 @@
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
-				<cbc:RegistrationName>Farthing Purchasing Consortia</cbc:RegistrationName>
+				<cbc:RegistrationName>Farthing Purchasing Consortium</cbc:RegistrationName>
 				<cbc:CompanyID>175 269 2355</cbc:CompanyID>
 				<cbc:ExemptionReason>N/A</cbc:ExemptionReason>
 				<cac:TaxScheme>
@@ -119,7 +119,7 @@
 		<cbc:PaymentMeansCode>20</cbc:PaymentMeansCode>
 		<cac:PayeeFinancialAccount>
 			<cbc:ID>12345678</cbc:ID>
-			<cbc:Name>Farthing Purchasing Consortia</cbc:Name>
+			<cbc:Name>Farthing Purchasing Consortium</cbc:Name>
 			<cbc:AccountTypeCode>Current</cbc:AccountTypeCode>
 			<cbc:CurrencyCode>GBP</cbc:CurrencyCode>
 			<cac:FinancialInstitutionBranch>
@@ -202,12 +202,12 @@
 		<cbc:Note>sample</cbc:Note>
 		<cac:LineItem>
 			<cbc:ID>1</cbc:ID>
-			<cbc:Quantity unitCode="KG">100</cbc:Quantity>
+			<cbc:Quantity unitCode="KGM">100</cbc:Quantity>
 			<cbc:LineExtensionAmount currencyID="GBP">100.00</cbc:LineExtensionAmount>
 			<cbc:TotalTaxAmount currencyID="GBP">17.50</cbc:TotalTaxAmount>
 			<cac:Price>
 				<cbc:PriceAmount currencyID="GBP">100.00</cbc:PriceAmount>
-				<cbc:BaseQuantity unitCode="KG">1</cbc:BaseQuantity>
+				<cbc:BaseQuantity unitCode="KGM">1</cbc:BaseQuantity>
 			</cac:Price>
 			<cac:Item>
 				<cbc:Description>Acme beeswax</cbc:Description>
