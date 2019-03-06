@@ -4,7 +4,7 @@
   <groupId>com.tradeshift</groupId>
   <artifactId>tradeshift-ubl-xsd</artifactId>
   <packaging>bundle</packaging>
-  <version>2.0.0</version>
+  <version>cn-2.0.0</version>
   <name>OASIS Universal Business Language XML schemas</name>
   <url>http://docs.oasis-open.org/ubl/os-UBL-2.0/UBL-2.0.html</url>
   <description>
