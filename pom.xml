@@ -69,13 +69,6 @@
     </developer>
   </developers>
 
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
-
   <build>
     <plugins>
       <!-- Add OGSi manifest to jar -->
@@ -121,19 +114,20 @@
           </execution>
         </executions>
       </plugin>
-      <!-- Allow Sonatype (Maven central) staging deploys -->
-      <!-- Release documentation can be found at http://central.sonatype.org/pages/apache-maven.html -->
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.3</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
+      <!--No Sonatype upload-->
+<!--      &lt;!&ndash; Allow Sonatype (Maven central) staging deploys &ndash;&gt;-->
+<!--      &lt;!&ndash; Release documentation can be found at http://central.sonatype.org/pages/apache-maven.html &ndash;&gt;-->
+<!--      <plugin>-->
+<!--        <groupId>org.sonatype.plugins</groupId>-->
+<!--        <artifactId>nexus-staging-maven-plugin</artifactId>-->
+<!--        <version>1.6.3</version>-->
+<!--        <extensions>true</extensions>-->
+<!--        <configuration>-->
+<!--          <serverId>ossrh</serverId>-->
+<!--          <nexusUrl>https://oss.sonatype.org/</nexusUrl>-->
+<!--          <autoReleaseAfterClose>true</autoReleaseAfterClose>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
     </plugins>
   </build>
 
@@ -167,5 +161,17 @@
       </build>
     </profile>
   </profiles>
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Nexus Releases Repository</name>
+            <url>https://cn.nexus.bwtsi.cn/content/repositories/tradeshift-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Nexus Snapshots Repository</name>
+            <url>https://cn.nexus.bwtsi.cn/content/repositories/tradeshift-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
 
